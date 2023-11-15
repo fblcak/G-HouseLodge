@@ -705,7 +705,7 @@ services page
   gap: 2rem 5rem;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px)
 .services-content {
     grid-template-columns: 2fr 1fr;
 }
