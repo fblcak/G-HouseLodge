@@ -494,6 +494,7 @@ max-width: var(--max-width);
 .nav-logo{
   display: flex;
   align-items: center;
+  font-size: 1.25rem;
 }
 
 .nav-header img {
