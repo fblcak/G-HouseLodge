@@ -198,7 +198,7 @@ nav {
 
 .input__group {
   display: grid;
-  gap: 1rem;
+  gap: 1rem 4rem;
 }
 
 .input__group label {
@@ -311,17 +311,19 @@ nav {
   margin-inline: auto;
   margin-top: 8rem;
   display: grid;
-  gap: 0 5rem;
+  gap: 2.5rem;
 }
 
 .room__card img {
-  box-shadow: 500px 500px 500px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .room__card__details {
   margin-inline: 0.1rem;
   padding: 1rem;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-between;
   gap: 0.1rem;
@@ -340,6 +342,7 @@ nav {
 }
 
 .room__card__details p {
+  max-width: 400px;
   color: var(--text-light);
 }
 
